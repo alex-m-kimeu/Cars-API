@@ -1,5 +1,5 @@
 {
-  "name": "cars-api",
+  "name": "project_data",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,11 +7,19 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-m-kimeu/Cars-API.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-m-kimeu/Cars-API/issues"
+  },
   "dependencies": {
-    "cars": "^1.1.6",
-    "json-server": "^1.0.0-alpha.21"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.1"
   }
 }
